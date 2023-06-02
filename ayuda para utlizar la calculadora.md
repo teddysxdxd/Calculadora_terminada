@@ -120,7 +120,7 @@ ___
 			Escribir "La suma de la matriz es ",suma_matriz;
 			Escribir "*************************";
 			6:
-			//restar todos los valores de la matriz
+			    //restar todos los valores de la matriz
 			Escribir "Ingrese el tamaño de la matriz";
 			escribir "Numero de filas";
 			Leer tamanoi;
@@ -151,7 +151,112 @@ ___
 			Escribir "La resta de la matriz es ",resta_matriz;
 			Escribir "*************************";
 
+> Para hacer una suma de matrices y resta de la misma el sistema te preguntara las filas y colunmas, esto para suma y resta entre dos matrices :D
 
+    7:	
+			//suma de matriz
+			Escribir "Ingrese tamaño de matriz";
+			escribir "Numero de filas";
+			Leer tamanoi;
+			Escribir "Ingrese tamaño de columnas";
+			leer tamanoj;
+			
+			Para i<-0 Hasta tamanoi- 1 Con Paso 1 Hacer
+				Para j<-0 Hasta tamanoj-1 Con Paso 1 Hacer
+					Escribir Sin Saltar " Ingrese su dato " ,i,j,;
+					leer M[i,j];
+				Fin Para
+			Fin Para
+			Escribir " ";
+			Escribir "Su matriz es ";
+			Escribir " ";
+			Para i<-0 Hasta tamanoi-1 Con Paso 1 Hacer
+				Para j<-0 Hasta tamanoj-1 Con Paso 1 Hacer
+					Escribir Sin Saltar " " M[i,j];
+				Fin Para
+				Escribir " ";
+			Fin Para
+			Escribir "Siguiente matriz porfavor";
+			
+			Para i<-0 Hasta tamanoi- 1 Con Paso 1 Hacer
+				Para j<-0 Hasta tamanoj-1 Con Paso 1 Hacer
+					Escribir Sin Saltar " Ingrese su dato " ,i,j,;
+					leer Q[i,j];
+				Fin Para
+			Fin Para
+			Escribir " ";
+			Escribir "El resultado de su matriz es ";
+			Escribir " ";
+			Para i<-0 Hasta tamanoi-1 Con Paso 1 Hacer
+				Para j<-0 Hasta tamanoj-1 Con Paso 1 Hacer
+					Escribir Sin Saltar " " Q[i,j];
+				Fin Para
+				Escribir " ";
+			Fin Para
+			Escribir " ";
+			Escribir " La suma es";
+			Escribir " ";
+			
+			Para i<-0 Hasta tamanoi-1 Con Paso 1 Hacer
+				Para j<-0 Hasta tamanoj-1 Con Paso 1 Hacer
+					Escribir Sin Saltar " "  Q[i,j] +  M[i,j];
+					
+				Fin Para
+				Escribir "";
+			Fin Para
+			8:	
+			// resta de matriz
+			Escribir "Ingrese tamaño de matriz";
+			escribir "Numero de filas";
+			Leer tamanoi;
+			Escribir "Ingrese el tamaño de columnas";
+			leer tamanoj;
+			
+			Para i<-0 Hasta tamanoi- 1 Con Paso 1 Hacer
+				Para j<-0 Hasta tamanoj-1 Con Paso 1 Hacer
+					Escribir Sin Saltar " Ingrese su dato " ,i,j,;
+					leer M[i,j];
+				Fin Para
+			Fin Para
+			Escribir " ";
+			Escribir "Su matriz es ";
+			Escribir " ";
+			Para i<-0 Hasta tamanoi-1 Con Paso 1 Hacer
+				Para j<-0 Hasta tamanoj-1 Con Paso 1 Hacer
+					Escribir Sin Saltar " " M[i,j];
+				Fin Para
+				Escribir " ";
+			Fin Para
+			Escribir "Siguiente matriz porfavor";
+			
+			Para i<-0 Hasta tamanoi- 1 Con Paso 1 Hacer
+				Para j<-0 Hasta tamanoj-1 Con Paso 1 Hacer
+					Escribir Sin Saltar " Ingrese su dato " ,i,j,;
+					leer Q[i,j];
+				Fin Para
+			Fin Para
+			Escribir " ";
+			Escribir "Su matriz es ";
+			Escribir " ";
+			Para i<-0 Hasta tamanoi-1 Con Paso 1 Hacer
+				Para j<-0 Hasta tamanoj-1 Con Paso 1 Hacer
+					Escribir Sin Saltar " " Q[i,j];
+				Fin Para
+				Escribir " ";
+			Fin Para
+			Escribir " ";
+			Escribir " La resta de la matriz es";
+			Escribir " ";
+			
+			Para i<-0 Hasta tamanoi-1 Con Paso 1 Hacer
+				Para j<-0 Hasta tamanoj-1 Con Paso 1 Hacer
+					Escribir Sin Saltar " "  Q[i,j] -  M[i,j];
+				Fin Para
+				Escribir " ";
+				
+			Fin Para
+
+ 
 
 
 __¡Te dejamos un link con el código completo aqui!__
