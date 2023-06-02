@@ -276,7 +276,35 @@ ___
 				
 			Fin Para
  
+>Para que el sistema te realice un cuadro con asteriscos lo que debes de hacer es introducir el numero (tamaño del cuadro) y listo:
 
+     10:
+			//cuadro con asteriscos
+			Escribir "Ingrese el tamaño del cuadro";
+			Escribir "";
+			leer operador;
+			Escribir "";
+			//escribe la parte de arriba
+			Para i<- 0 Hasta operador -1 Con Paso 1 Hacer
+				Escribir Sin Saltar"*  ";
+			Fin Para
+			Escribir "";
+			//escribe la parte central
+			Para i<-0 Hasta  operador-3 Con Paso 1 Hacer
+				Escribir Sin Saltar"*  ";
+				Para j<-0 Hasta operador - 3 Con Paso 1 Hacer
+					Escribir Sin Saltar"   ";
+				Fin Para
+				Escribir Sin Saltar"*  ";
+				Escribir "";
+			Fin Para
+			//escribe la parte de abajo
+			Para i<- 0 Hasta operador -1 Con Paso 1 Hacer
+				Escribir Sin Saltar"*  ";
+			Fin Para
+			Escribir "";
+
+Y la despedida que todo el codigo se hizo con un repetir :) 
 
 __¡Te dejamos un link con el código completo aqui!__
 [Nuestra Calculadora](https://drive.google.com/file/d/1NmdMuo_IXbTjA4DEO7NHOHLozR1xFMKG/view?usp=sharing)
