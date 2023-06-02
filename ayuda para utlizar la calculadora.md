@@ -256,6 +256,25 @@ ___
 				
 			Fin Para
 
+
+> Para realizar un triangulo de número, el sistema te pedira un número y el sistema te hará el despliegue de un triángulo:
+
+     9:
+			//triangulo con numeros
+			Escribir "Ingrese el tamaño del triangulo";
+			leer tamanoj;
+			Para i<-0 Hasta tamanoj- 1 Con Paso 1 Hacer
+				val_inical<-num;
+				Para j<-0 Hasta i Con Paso 1 Hacer
+					Escribir Sin Saltar resp_triangulo," ";
+					num<-val_inical+2;
+					resp_triangulo<-resp_triangulo-2;
+				Fin Para
+				
+				Escribir "";
+				resp_triangulo<-num;
+				
+			Fin Para
  
 
 
